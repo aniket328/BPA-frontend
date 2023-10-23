@@ -24,7 +24,7 @@ const LandingPage = () => {
               <img src="user_solid.svg" alt="Logo" className="h-5 w-auto ml-3 " />
             </span>
 
-            <button onClick={handleLogout} className="bg-[#23839a] hover:bg-[#3c8c9c] ][ p-2 rounded text-white">Logout</button>
+            <button onClick={handleLogout} className=" flex items-center bg-[#23839a] hover:bg-[#FC682D] ][ p-2 rounded text-white mr-2">Logout <img src="/logout.svg" alt="Logout Icon" className="ml-2 h-4 w-auto " /></button>
         </div>
 
         {/* Main Content */}
@@ -42,7 +42,7 @@ const LandingPage = () => {
          <div className="w-3/4 p-4 flex flex-col justify-center items-center">
                     <h1 className="text-5xl mb-8 font-extrabold">Welcome <br/> Aboard......</h1>
                     
-                    <img src="construction_site.svg" alt="Your SVG Description" className="h-80 w-auto" />
+                    <img src="construction_site.svg" alt="Your SVG Description" className="h-[370px] w-auto" />
                 </div>
             </div>
         </div>
